@@ -79,9 +79,16 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## SehatQ Review
 
+- Untuk run aplikasi ini, harus menggunakan http://localhost:8000 ( php artisan serve ), 
+	karena saya mendaftarkan callback untuk login menggunakan google/facebook ke URL tersebut
+
 - Menggunakan Guzzle ( ada didalam DataController.php -> Function GetCategories )
+
 - Auth Google / Facebook ( AuthController.php )
+
 - Untuk Menampilkan data API pada front end saya menggunakan AJAX ( home.blade.php -> function getCategories() )
+
 - Semua perintah yang telah diberikan sudah terdeliver, tetapi ada beberapa design yang tidak sesuai seperti :
 	- Navbar
+
 - Untuk Search Page belum selesai.. lainnya insyaAllah sudah sesuai dengan permintaan
