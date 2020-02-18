@@ -76,3 +76,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## SehatQ Review
+
+- Menggunakan Guzzle ( ada didalam DataController.php -> Function GetCategories )
+- Auth Google / Facebook ( AuthController.php )
+- Untuk Menampilkan data API pada front end saya menggunakan AJAX ( home.blade.php -> function getCategories() )
+- Semua perintah yang telah diberikan sudah terdeliver, tetapi ada beberapa design yang tidak sesuai seperti :
+	- Navbar
+- Untuk Search Page belum selesai.. lainnya insyaAllah sudah sesuai dengan permintaan
